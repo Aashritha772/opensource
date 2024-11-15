@@ -1,0 +1,13 @@
+n=int(input())
+sum=0
+num=n
+n1=str(n)
+for i  in range(0,len(n1)):
+    r=num%10
+    sum+=r
+    q=num//10
+    num=q
+if sum%2==0:
+    print("Vignesh")
+else:
+    print("Charan")
